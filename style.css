@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+    
+}
+:root{
+    --primary-color:#000000;
+    --secondary-color:#b5b3b3;
+    --third-color:#;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.second-container{
+    max-width: 1100px;
+    margin: auto;
+}
+/* NAVBAR */
+.navbar-section{
+    height: 14vh;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.main-navbar{
+    height: 14vh;
+}
+.nav-links ul li a{
+    color: gray;
+    font-weight: 700;
+}
+ .logo img{
+    height: 3.8rem;
+    width: 3.5rem;
+    filter: invert(100%) sepia(21%) saturate(885%) hue-rotate(24deg) brightness(114%) contrast(97%);
+}
+/* banner section */
+.banner-section{
+    background-image: url(./images/banner.svg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+.banner-content h1{
+   font-size: 8rem;
+   color: white;
+}
+/* about-section */
+.about-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(./images/about.svg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.about-section h2{
+    color: white;
+}
+.about-content{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0.9));
+    width: 45%;
+    height: 60vh;
+    padding: 1.2rem;
+    border-left: 0.1rem solid yellow;
+}
+.about-content img{
+    height: 9rem;
+    width: 9rem;
+}
+.about-content p{
+    display: inline;
+    color: var(--secondary-color);
+    line-height: 2rem;
+}
+/* sayhello section */
+.sayhello-section{
+    background-image:url(./images/HELLOW.svg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    
+}
+.form-section{
+    height: 65vh;
+    width: 30%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
+    float: right;
+    margin-right: 10rem;
+}
+.form-section h3{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    color: white;
+    font-weight: 700;
+}
+form{
+    padding: 2rem;
+}
+.form-section label{
+    display: block;
+    color: white;
+}
+.form-section input{
+    width: 100%;
+    height: 2rem;
+    background-color: gray;
+    border-bottom: 0.1rem solid blue;
+}
+.form-section textarea{
+    width: 100%;
+    height: 5rem;
+    background-color: gray;
+    border-bottom: 0.1rem solid blue;
+}
+.form-section button{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: blue;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+/* footer section */
+.footer-section{
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+}
+
+.footer-section img{
+    filter: invert(100%) sepia(21%) saturate(885%) hue-rotate(24deg) brightness(114%) contrast(97%);
+}
+.links ul{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.links ul li a{
+    color: white;
+}
+.line{
+    height: 0.1rem;
+    width: 100%;
+    background-color: grey;
+    margin: 0;
+}
+.footerb-content p{
+    font-size: 1.2rem;
+    color: grey;
+}
+.footerb-content img{
+    text-align: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.5rem;
+
+}
